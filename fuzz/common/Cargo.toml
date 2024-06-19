@@ -9,7 +9,7 @@ edition = "2021"
 bincode = "1.3.3"
 serde = "1.0.63"
 virtio-bindings = { path = "../../virtio-bindings" }
-virtio-queue = { path = "../../virtio-queue", features = ["test-utils"] }
+virtio-queue = { version = "0.12.0", path = "../../virtio-queue", features = ["test-utils"] }
 virtio-vsock = { path = "../../virtio-vsock" }
 virtio-queue-ser = { path = "../../virtio-queue-ser" }
 virtio-blk = { path = "../../virtio-blk" }
